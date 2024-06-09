@@ -1,0 +1,16 @@
+.navbar {
+	background-color: #d4d4d4;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.navContainer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.navItems {
+	display: flex;
+	align-items: center;
+}

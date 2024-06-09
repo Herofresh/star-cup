@@ -1,0 +1,16 @@
+@keyframes sprite-animation {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -3072px 0;
+	} /* 6 frames * 512px */
+}
+
+.sprite {
+	width: 512px;
+	height: 512px;
+	background-image: url("../../public/spritesheet.png");
+	background-repeat: no-repeat;
+	animation: sprite-animation 1s steps(6) infinite;
+}
